@@ -28,7 +28,7 @@ jobs:
         while true; do
           python3 your_script.py
           EXIT_CODE=$?
-          sleep 20
+          sleep 7
 
           if [ $EXIT_CODE -eq 0 ]; then
             echo "Python script ทำงานเสร็จสมบูรณ์"
